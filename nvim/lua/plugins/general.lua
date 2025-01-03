@@ -13,5 +13,9 @@ return {
       "nvim-telescope/telescope.nvim"
     },
     config = true
+  },
+  {
+    "lewis6991/gitsigns.nvim",
+    opts = {}
   }
 }
