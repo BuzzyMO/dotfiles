@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.keymaps")
 
-vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true })
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[set number]]
+vim.cmd[[set shiftwidth=2]]
