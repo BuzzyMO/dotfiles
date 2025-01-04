@@ -15,4 +15,15 @@ map('<leader>', '<nop>')
 map('jk', '<Esc>', { mode = 'i' })
 
 map('<leader>f', ':Telescope find_files<CR>', { desc = 'Find Files' })
+map('<leader>F', ':Telescope live_grep<CR>', { desc = 'Find Text' })
 map('<leader>[', ':Neotree toggle<CR>', { desc = 'Open files tree' })
+
+-- Navigation
+  -- windows focusing
+map('H', '<C-w>h')
+map('J', '<C-w>j')
+map('K', '<C-w>k')
+map('L', '<C-w>l')
+  -- tabs
+map('<A-h>', ':tabprev<CR>')
+map('<A-l>', ':tabnext<CR>')
